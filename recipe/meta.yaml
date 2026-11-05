@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggtangle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggtangle/ggtangle_{{ version }}.tar.gz
-  sha256: ee10e94b7727758276f45823488e18b89c22ac9b6e8f58446e943438bdb2b94d
+  sha256: d7f9443e99d7a75437f9db2fa53d1d8615dbf5079e6d71849c327f4b05b27a8b
 
 build:
   number: 0
